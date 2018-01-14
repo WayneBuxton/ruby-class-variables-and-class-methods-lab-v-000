@@ -14,4 +14,7 @@ attr_accessor :name, :artist, :genre
     #binding.pry
   end
 
+  def count
+  end
+
 end
