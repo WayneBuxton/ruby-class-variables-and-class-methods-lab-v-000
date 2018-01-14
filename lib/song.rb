@@ -8,7 +8,7 @@ attr_accessor :name, :artist, :genre
     @artist = artist
     @genre = genre
     @@count += 1
-    @@artists
+    @@artists[artists]
     #binding.pry
   end
 
