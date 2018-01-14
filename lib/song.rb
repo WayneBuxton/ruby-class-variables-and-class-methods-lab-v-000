@@ -34,8 +34,7 @@ attr_accessor :name, :artist, :genre
         genre_count[genre] += 1
       else
         genre_count[genre] = 1
-
-
+      end
       #binding.pry
     end
     genre_count
