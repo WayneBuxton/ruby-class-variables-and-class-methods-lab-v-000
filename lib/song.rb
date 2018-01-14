@@ -30,7 +30,7 @@ attr_accessor :name, :artist, :genre
   def self.genre_count
     @@genres = 0
     genre_count = {}
-    @@genres.each do |genre,number|
+    @@genres.collect do |genre,number|
       @@genres += 1
       binding.pry
     end
