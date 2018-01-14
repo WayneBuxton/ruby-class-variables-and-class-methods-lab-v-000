@@ -11,7 +11,7 @@ attr_accessor :name, :artist, :genre
     @@count += 1
     @@artists << @artist
     @@genres << @genre
-    #binding.pry
+
   end
 
   def self.count
@@ -20,6 +20,7 @@ attr_accessor :name, :artist, :genre
 
   def self.artists
     @@artists
+    binding.pry
   end
 
 end
