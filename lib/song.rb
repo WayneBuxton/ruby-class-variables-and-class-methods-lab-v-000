@@ -25,7 +25,6 @@ attr_accessor :name, :artist, :genre
 
   def self.genres
     @@genres.uniq!
-    #binding.pry
   end
 
 end
