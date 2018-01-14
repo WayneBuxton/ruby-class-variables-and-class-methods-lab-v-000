@@ -20,7 +20,12 @@ attr_accessor :name, :artist, :genre
 
   def self.artists
     @@artists.uniq!
-    #binding.pry
+    
+  end
+
+  def self.genres
+    @@genres
+    binding.pry
   end
 
 end
