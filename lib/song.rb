@@ -35,5 +35,5 @@ attr_accessor :name, :artist, :genre
       #binding.pry
     end
   end
-
+  genre_count
 end
