@@ -32,7 +32,7 @@ attr_accessor :name, :artist, :genre
     genre_count = {}
     @@genres.each do |genre,number|
       @@genres += 1
-      #binding.pry
+      binding.pry
     end
   end
 
